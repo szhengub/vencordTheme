@@ -1168,3 +1168,24 @@ div[class^="markup__"]:has(.vc-shiki-container),
 .footer__4d95d {
   border-radius: 8px;
 }
+
+[class*=unreadMentions i], [class^="groupStart_" i], [class^="newMessagesBar_" i], [class*=scrim] {
+    display: none!important; 
+}
+
+[class*="messagelistitem" i][data-author-id="1090729589120192683"]:has([src*=".mp4" i]) {
+    display: none!important;
+}
+
+[data-author-id="1118644615839486045"]:has([href*="instagram" i]) {
+    display: none!important;
+}
+
+[class*="messagelistitem" i][data-author-id="834083486994006058"] {
+    display: none!important;
+}
+
+[class^="container_" i]:has([class*="coachmarkcontainer" i]) {
+    display: none!important;
+}
+

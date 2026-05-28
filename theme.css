@@ -1169,7 +1169,7 @@ div[class^="markup__"]:has(.vc-shiki-container),
   border-radius: 8px;
 }
 
-[class*=unreadMentions i], [class^="groupStart_" i], [class^="newMessagesBar_" i], [class*=scrim] {
+[class*=unreadMentions i]/*, [class^="groupStart_" i]*/, [class^="newMessagesBar_" i]/*, [class*=scrim]*/ {
     display: none!important; 
 }
 
@@ -1188,4 +1188,3 @@ div[class^="markup__"]:has(.vc-shiki-container),
 [class^="container_" i]:has([class*="coachmarkcontainer" i]) {
     display: none!important;
 }
-

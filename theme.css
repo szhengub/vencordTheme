@@ -1201,6 +1201,10 @@ div[class^="markup__"]:has(.vc-shiki-container),
     display: none!important;
 }
 
+[class*="messagelistitem" i][data-author-id="761897716187922453"]:has([src*=".mp4" i]) {
+    display: none!important;
+}
+
 [class^="container_" i]:has([class*="coachmarkcontainer" i]) {
     display: none!important;
 }
